@@ -1,5 +1,5 @@
 export const getWebsocketUrl = () => {
-    const apiKey = localStorage.getItem('apiKey');
+    const apiKey = 'AIzaSyD5EdIg0UTZlXr-3dPjHtgbCNSAcCEjDqU';
     return `wss://generativelanguage.googleapis.com/ws/google.ai.generativelanguage.v1alpha.GenerativeService.BidiGenerateContent?key=${apiKey}`;
 };
 
